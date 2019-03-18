@@ -4,13 +4,17 @@ import './App.css';
 
 // import Users from './components/Users'
 
-import Movies from './components/Movies'
+// import Movies from './components/Movies'
 
-class App extends Component { //1
+import EstadosMyApp from './components/EstadosMyApp'
+
+class App extends Component { //1/
+
+
   render() {
     return (
       <div className="App">
-        <Movies/> 
+        <EstadosMyApp hola="Hola Mundo"/> 
       </div>
     );
   }
